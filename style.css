@@ -1,0 +1,78 @@
+.jumbotron{
+    background-image: url(jumbotron.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.jumbotron h1{
+    color: yellow;
+    font-weight: bold;
+}
+.pertama{
+    background-image: url(img1.png);
+    background-size: cover;
+    height: 252px;
+    margin-top: -77px;
+}
+.kedua{
+    background-image: url(img2.png);
+    background-size: cover;
+    height: 252px;
+    margin-top: -77px;
+}
+.ketiga{
+    background-image: url(img3.png);
+    background-size: cover;
+    height: 252px;
+    margin-top: -77px;
+}
+.kartu h5{
+    margin-top: 100px ;
+}
+.kartu{
+    background-color: black;
+    height: 500px;
+    margin-top: -90px;
+}
+.program{
+    text-align: center;
+    margin-top: 40px;
+}
+ul li{
+    list-style: none;
+}
+
+/* Desktop Version */
+@media(min-width:992px){
+    .nav-link{
+        color: white!important;
+    }
+    .jumbotron{
+        background-image: url(jumbotron.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        margin-top: -60px;
+    }
+    .jumbotron h1{
+        margin-top: 70px;
+        color: yellow;
+        font-weight: bold;
+    }
+    .kartu{
+        background-color: black;
+        height: 250px;
+        padding-top: 75px;
+        margin-top: -90px;
+    }
+    .program{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .program ul li{
+        text-align: left;
+        list-style: none;
+    }
+}
